@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, Button, Pressable, Image, FlatList, Modal, } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
-import AddItem from "./src/AddItem";
+import AddItem from "./src/AddItems";
 import ListItem from "./src/ListItem";
 
 const initialState = [
